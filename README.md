@@ -1,6 +1,6 @@
 # ⏰ Digital Clock Design using VHDL on FPGA
 
-![Project Banner](Images/nexys4_board.jpg)
+![Project Banner](IMAGES/nexys4_board.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ It was **simulated in ModelSim** and **synthesized in Vivado**, following a stru
 ## ⚙️ System Flow
 
 ### 🧩 Flowchart  
-![System Flowchart](Images/flowchart_digital_clock.png)  
+![System Flowchart](IMAGES/flowchart_digital_clock.png)  
 > The design increments seconds → minutes → hours cyclically, resetting after 60 seconds, 60 minutes, and 24 hours.
 
 ---
@@ -44,15 +44,15 @@ It was **simulated in ModelSim** and **synthesized in Vivado**, following a stru
 ## 🧱 Architecture Design
 
 ### 🔹 Architecture using MOD Counters  
-![Architecture](Images/architecture_mod_counters.jpg)  
+![Architecture](IMAGES/architecture_mod_counters.jpg)  
 > The clock uses cascaded MOD-10, MOD-6, and MOD-3 counters to represent seconds, minutes, and hours respectively.
 
 ### 🔹 Functional Module Diagram  
-![Functional Modules](Images/functional_module_diagram.jpg)  
+![Functional Modules](IMAGES/functional_module_diagram.jpg)  
 > Modular components handle timekeeping, display control, button switches, and clock division.
 
 ### 🔹 Main Block Diagram  
-![Block Diagram](Images/block_diagram_main.jpg)  
+![Block Diagram](ImagesIMAGES/block_diagram_main.jpg)  
 > The top-level design integrates switch inputs, the time module, and 7-segment display outputs.
 
 ---
@@ -113,25 +113,25 @@ end case;
 
 ### 🧾 Simulation Results
 
-![Simulation Output](Images/vivado_implementation_summary.jpg)
+![Simulation Output](IMAGES/vivado_implementation_summary.jpg)
 
 > Simulation verified correct counter behavior and stable 1 Hz clock generation.
 
 ### 💡 FPGA Display
 
-![FPGA Display](Images/fpga_display.jpg)
+![FPGA Display](IMAGES/fpga_display.jpg)
 
 > The 7-segment display outputs the current time (HH:MM:SS) in real time.
 
 ### 🧠 FPGA Real Output
 
-![FPGA Real Output](Images/fpga_real_output.jpg)
+![FPGA Real Output](IMAGES/fpga_real_output.jpg)
 
 > Live hardware output confirming accurate real-time counting.
 
 ### 🧪 FPGA Testing Setup
 
-![FPGA Testing Setup](Images/fpga_testing_setup.jpg)
+![FPGA Testing Setup](IMAGES/fpga_testing_setup.jpg)
 
 > Board under testing with reset and button press verification.
 
@@ -184,11 +184,11 @@ end case;
 
 ### Nexys 4 Board
 
-![Nexys Board](Images/nexys4_board.jpg)
+![Nexys Board](IMAGES/nexys4_board.jpg)
 
 ### FPGA Working Output
 
-![FPGA Output](Images/fpga_real_output.jpg)
+![FPGA Output](IMAGES/fpga_real_output.jpg)
 
 ---
 
