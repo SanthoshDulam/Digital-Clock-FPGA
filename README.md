@@ -1,5 +1,4 @@
 # ⏰ Digital Clock Design using VHDL on FPGA
-<img src="IMAGES/nexys4_board.jpg" style="transform: rotate(90deg);" width="400">
 
 ![Project Banner](IMAGES/nexys4_board.jpg)
 
