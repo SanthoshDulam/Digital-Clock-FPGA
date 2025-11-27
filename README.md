@@ -52,7 +52,7 @@ It was **simulated in ModelSim** and **synthesized in Vivado**, following a stru
 > Modular components handle timekeeping, display control, button switches, and clock division.
 
 ### 🔹 Main Block Diagram  
-![Block Diagram](ImagesIMAGES/block_diagram_main.jpg)  
+![Block Diagram](ImagesIMAGES/Block Diagram.jpg)  
 > The top-level design integrates switch inputs, the time module, and 7-segment display outputs.
 
 ---
